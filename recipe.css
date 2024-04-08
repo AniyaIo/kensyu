@@ -1,0 +1,103 @@
+/*All*/
+body {
+    background-image: url("./images/bg_Argyle.jpg");
+}
+
+/*index.html*/
+#title{
+    text-align: center;
+}
+
+#kitchen {
+    margin: auto;
+    display: block;
+}
+#summary {
+    text-align: center;
+}
+
+#link{
+    list-style-type: circle;
+}
+
+/*curry.html*/
+#curry{
+    margin:auto;
+    display: block;
+    border:double 7px red;
+}
+
+#material{
+    background-color:rgb(254, 249, 178);
+    border: red;
+}
+
+#material td{
+    padding-right: 30px;
+}
+
+#material_cap{
+    color: red;
+}
+
+#point{
+    display:flex;
+}
+
+#point_p{
+    display:flex;
+    flex-flow: column;
+}
+
+/*form.html*/
+#input{
+    background-color: white;
+    border:solid 1px rgb(218, 137, 218);
+    border-radius: 10px;
+    text-align: center;
+    width: 550px;
+    margin:auto;
+    padding-bottom: 20px;
+}
+
+#input.div{
+   display: flex;
+   flex-flow: row;
+}
+
+#gender{
+    display: flex;
+    justify-content: center;
+    
+    width:130px;
+    margin:auto;
+}
+
+.gender{
+    border:solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    margin:5px;
+    padding:3px;
+}
+
+#recipe{
+    display: flex;
+    justify-content: center;
+    
+    width:550px;
+    margin:auto;
+}
+
+.recipe{
+    border:solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    margin:5px;
+    padding:3px;    
+}
+
+#free{
+    width:300px;
+}
+
